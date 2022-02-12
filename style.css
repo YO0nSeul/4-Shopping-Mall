@@ -1,0 +1,55 @@
+.btn-outline-success {
+    color: chocolate;
+    border-color: chocolate;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: chocolate;
+    color: white;
+    border-color: chocolate;
+  }
+  
+  .navbar {
+    padding: 8px 32px;
+    height: 72.39px;
+  }
+  
+  .container-fluid {
+    padding: 0px 12px;
+  }
+  
+  footer {
+    background-color: black;
+    color: white;
+  }
+  
+  .first-line {
+    border-bottom: 1px solid #392D23;
+  }
+  
+  .second-line a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .third-line {
+    display: none;
+  }
+  
+  @media screen and (max-width:48rem){
+    .first-line{
+      text-align: center;
+    }
+  }
+  
+  @media screen and (max-width:48rem) {
+    .second-line{
+      padding: 0px 2rem;
+      border-bottom: 1px solid #392D23;
+  }
+  
+  @media screen and (max-width:48rem) {
+    .third-line {
+      display: block;
+    }
+  }
